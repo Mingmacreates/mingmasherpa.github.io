@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mingma Sherpa</title>
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/line-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        /* ── Projects Section ── */
+        .project-cards-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            margin-top: 16px;
+        }
+
+        @media (max-width: 768px) {
+            .project-cards-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .project-card {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 4px;
+            padding: 28px 28px 24px;
+            transition: background 0.2s, transform 0.2s;
+        }
+
+        .project-card:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(-3px);
+        }
+
+        .project-tools {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 14px;
+        }
+
+        .project-tool-tag {
+            font-size: 0.68rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #1a5c52;
+            background: #a8d5cc;
+            padding: 3px 10px;
+            border-radius: 20px;
+        }
+
+        .project-card h3 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #f0ede3;
+            margin-bottom: 10px;
+            line-height: 1.3;
+        }
+
+        .project-card p {
+            font-size: 0.92rem;
+            color: rgba(240, 237, 227, 0.72);
+            line-height: 1.75;
+            font-weight: 400;
+        }
+
+        .project-source {
+            font-size: 0.75rem;
+            color: rgba(240, 237, 227, 0.4);
+            margin-top: 14px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <!--NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">   
+        <div class="container flex-lg-column">
+            <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+                <span class="h4 fw-bold d-block d-lg-none">Mingma Sherpa</span>
+                <img src="./assets/images/person 2.jpg" class="d-none d-lg-block rounded-circle" alt="" style="width: 200px; height: 200px; object-fit: cover; border-radius: 50%;">
+            </a>
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto flex-lg-column text-lg-center" href="#">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--//NAVBAR-->
+
+    <!--Content Wrapper-->
+    <div id="content-wrapper">
+
+        <!--HOME-->
+        <section id="home" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold" data-aos="fade-up"> I am Mingma Sherpa, a Data Analyst student at NYU with prior experience in accounting</h1>
+                    <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="400">With a strong foundation in analytical thinking, precision, and technical proficiency, I bring a unique perspective to data analysis. My background as an accountant honed my ability to analyze complex data, maintain accuracy, and leverage tools like Microsoft Excel to deliver actionable insights. These transferable skills enable me to approach data-driven challenges with confidence and expertise as I continue to grow in this dynamic field.</p>
+                    <a href="#work" class="btn btn-brand me-3">Explore My Work</a>
+                    <a href="#" class="link-custom me-3"> Call: (443) 983 9483</a>
+                    <a href="#" class="link-custom"> Email:mingmasrp1998@gmail.com</a>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!--//HOME-->
+
+        <!-- WORK-->
+        <section id="work" class="full-height px-lg-5">
+           <div class="container">
+             <div class="row pb-4" data-aos="fade-up">
+                <div class="col-lg-8">
+                    <h1>Work</h1>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <h2 class="display-4 fw-bold" data-aos="fade-up">New York Foundation</h2>
+                    <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">In my role, I manage the social security benefits, pensions, and supplemental income for over 80 clients using QuickBooks and Denali, ensuring accurate tracking and reporting. I create personalized budgets for each client, helping them maintain financial stability. Additionally, I handle the documentation and deposit of incoming benefit checks, ensuring timely processing. I prepare monthly bank reconciliations using QuickBooks and Denali to maintain accurate financial records. Throughout the year, I generate comprehensive annual reports, final reports, and summaries for clients to submit for court review. I am also responsible for issuing checks to cover monthly rent, utilities, and personal expenses, ensuring all financial obligations are met on time.</p>
+                    <h3 class="display-4 fw-bold" data-aos="fade-up">Serene Spaces Living</h3>
+                    <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">In my role, I managed the full cycle of accounts receivable and accounts payable, overseeing data entry, payment processing, and collections to ensure accurate financial records. I utilized QuickBooks to prepare and issue client invoices, automate payment reminders, and create journal entries for daily transactions. I also prepared monthly financial statements, including cash flow and income reports, to support internal decision-making and financial planning. Additionally, I conducted bank reconciliations and maintained meticulous documentation of all financial transactions. My problem-solving skills were essential as I collaborated with clients to resolve payment issues, ensuring strong professional relationships. Furthermore, I successfully obtained WBENC certification for 2022 and 2023, highlighting my attention to detail and ability to manage complex applications and documentation.</p>
+                    <h4 class="display-4 fw-bold" data-aos="fade-up">BM Tax & Accounting</h4>
+                    <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">As an intern, I assisted with the preparation of federal, state, and local tax returns for clients using ProSeries software, ensuring compliance with all relevant tax laws and regulations. I communicated directly with clients to collect and verify tax-related documents, ensuring that all information was accurate and complete. Additionally, I supported the preparation of financial statements and 1099 forms for businesses, collaborating closely with the senior accountant to ensure timely and precise filings. My attention to detail and organizational skills helped streamline the tax preparation process while maintaining the highest level of accuracy.</p>
+                </div>
+               </div>
+           </div>
+        </section>
+        <!--//WORK-->
+
+        <!--EDUCATION-->
+        <section id="education" class="full-height px-lg-5">
+            <div class="row pb-4" data-aos="fade-up">
+                <div class="col-lg-8">
+                    <h1>EDUCATION</h1>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <h2 class="display-4 fw-bold" data-aos="fade-up">New York University, SPS</h2>
+                    <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">I am currently pursuing a Master of Science in Management and Analytics with a concentration in Data Analysis at New York University SPS, with an expected graduation date of May 2026. My coursework includes Data Analytics, Accounting Systems, and Business Analytics, which are helping me develop a strong foundation in both management and analytical skills.</p>
+                    <h3 class="display-4 fw-bold" data-aos="fade-up">City University of New York, Baruch College</h3>
+                    <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">I graduated with a Bachelor of Business Administration in Accounting from Baruch College, City University of New York, in May 2022. My undergraduate studies focused on key areas such as Taxation, Financial Accounting, Managerial Accounting, Auditing, and Business Law, providing me with a comprehensive understanding of the accounting field. These academic experiences have equipped me with a solid blend of technical knowledge and practical skills applicable to both accounting and data analytics.</p>
+                </div>
+            </div>
+        </section>
+        <!--//EDUCATION-->
+
+        <!--SKILLS-->
+        <section id="skills" class="full-height px-lg-5">
+            <div class="row pb-4" data-aos="fade-up">
+               <div class="col-lg-5">
+                   <h1>SKILLS</h1>
+               </div>
+           </div>
+           <div class="container">
+               <div class="row">
+                 <div class="col-lg-8">
+                   <h2 class="display-4 fw-bold" data-aos="fade-up">Analytical Skills</h2>
+                   <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">I have solid experience with data analytics tools such as Power BI and SQL, which I use for financial analysis and reporting, helping to provide actionable insights from complex data sets. I am proficient in Microsoft Excel, leveraging its advanced features for data analysis, financial modeling, and reporting. Additionally, I have a strong understanding of Generally Accepted Accounting Principles (GAAP) and financial reporting standards, ensuring compliance and accuracy in all financial documents and statements.</p>
+                   <img class="width=200 height=200" data-aos="fade-up" data-aos-delay="300" src="./assets/images/skills,,,.jpg">
+                   <h3 class="display-4 fw-bold" data-aos="fade-up">Operational Skills</h3>
+                   <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">I am highly skilled in using financial management software, including QuickBooks, Denali, and ProSeries, for tasks such as tax preparation, account reconciliations, and managing financial records. My practical experience includes preparing detailed financial reports, ensuring accurate account reconciliations, and maintaining compliance with regulatory requirements. Along with my technical abilities, I possess strong communication, time management, relationship-building, and project management skills, which allow me to collaborate effectively with clients and colleagues while efficiently managing multiple projects and deadlines.</p>
+               </div>
+           </div>
+        </section>
+        <!--//SKILLS-->
+
+        <!--PROJECTS-->
+        <section id="projects" class="full-height px-lg-5">
+            <div class="row pb-4" data-aos="fade-up">
+                <div class="col-lg-8">
+                    <h1>PROJECTS</h1>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div data-aos="fade-up" data-aos-delay="300">
+
+                            <!-- Project -->
+                            <div class="project-card">
+                                <div class="project-tools">
+                                    <span class="project-tool-tag">MySQL</span>
+                                    <span class="project-tool-tag">Tableau</span>
+                                    <span class="project-tool-tag">Excel</span>
+                                </div>
+                                <h3>Financial Reporting Dashboard</h3>
+                                <p>Developed a financial reporting dashboard using MySQL, Tableau, and Excel to analyze financial statements, automate reporting workflows, and visualize key performance metrics to support data-driven decision-making.</p>
+                                <p class="project-source">NYU M.S.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--//PROJECTS-->
+
+        <!--RESUME-->
+        <section id="resume" class="full-height px-lg-5">
+            <div class="row pb-4" data-aos="fade-up">
+                <div class="col-lg-5">
+                    <h1>RESUME</h1>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <iframe data-aos="fade-up" data-aos-delay="300" src="assets/resume/Mingma_Sherpa_Resume.pdf" width="500" height="700"></iframe>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!--//RESUME-->
+
+    </div>
+    <!--//Content Wrapper-->
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
